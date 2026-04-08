@@ -1,21 +1,28 @@
 @import "tailwindcss";
 
+/* Uniway brand — very light grey page, navy + orange UI */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f3f5f8;
+  --foreground: #09427f;
+  --brand-navy: #09427f;
+  --brand-orange: #fe7900;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand-navy: #09427f;
+  --color-brand-orange: #fe7900;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f3f5f8;
+    --foreground: #09427f;
+    --brand-navy: #09427f;
+    --brand-orange: #fe7900;
   }
 }
 
